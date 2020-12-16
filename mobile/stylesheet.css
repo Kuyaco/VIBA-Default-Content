@@ -1,0 +1,237 @@
+body {
+	background-color: #000000;
+}
+
+body.default #banner {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	height: 60px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #241D1D;
+}
+
+body.default #remoteVideo {
+	position: absolute;
+	display: none;
+	top: 80px;
+	width: 270px;
+	height: 480px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #241D1D;
+}
+
+body.default #remoteUrl {
+	position: absolute;
+	display: none;
+	top: 80px;
+	width: 270px;
+	height: 480px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #241D1D;
+}
+
+body.default #controls {
+	position: absolute;
+	top: 570px;
+	width: 100%;
+	height: 30px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #241D1D;
+}
+
+body.default #connected {
+	display: none;
+	position: absolute;
+	top: 560px;
+        left: 50%;
+	margin-left: -115px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+	color: #7cfc00;
+}
+
+body.default #hangup {
+	position: absolute;
+	top: 575px;
+        left: 50%;
+	margin-left: -10px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+	color: #ff7161;
+	transform: rotate(135deg);
+}
+
+body.default #mic {	
+	position: absolute;
+	top: 572px;
+        left: 50%;
+	margin-left: 60px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        color: #7cfc00;
+}
+
+body.default #mic_off {
+	display: none;
+	position: absolute;
+	top: 572px;
+        left: 50%;
+	margin-left: 60px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        color: #ff7161;
+}
+
+body.default #videocam {
+	position: absolute;
+	top: 572px;
+        left: 50%;
+	margin-left: 120px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        color: #7cfc00;
+}
+
+body.default #videocam_off {
+	display: none;
+	position: absolute;
+	top: 572px;
+        left: 50%;
+	margin-left: 120px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        color: #ff7161;
+}
+
+body.default #chat {
+	position: absolute;
+	top: 610px;
+	width: 100%;
+	height: 100px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #241D1D;
+}
+
+body.full #banner {
+	display: none;
+	position: absolute;
+}
+
+body.full #remoteVideo {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	//height: 480px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #241D1D;
+}
+
+body.full #remoteUrl {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	//height: 480px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #241D1D;
+}
+
+body.default #controls {
+	position: absolute;
+	top: 570px;
+	width: 100%;
+	height: 30px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #241D1D;
+}
+
+body.default #connected {
+	display: none;
+	position: absolute;
+	top: 560px;
+        left: 50%;
+	margin-left: -115px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+	color: #7cfc00;
+}
+
+body.default #hangup {
+	position: absolute;
+	top: 575px;
+        left: 50%;
+	margin-left: -10px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+	color: #ff7161;
+	transform: rotate(135deg);
+}
+
+body.default #mic {	
+	position: absolute;
+	top: 572px;
+        left: 50%;
+	margin-left: 60px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        color: #7cfc00;
+}
+
+body.default #mic_off {
+	display: none;
+	position: absolute;
+	top: 572px;
+        left: 50%;
+	margin-left: 60px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        color: #ff7161;
+}
+
+body.default #videocam {
+	position: absolute;
+	top: 572px;
+        left: 50%;
+	margin-left: 120px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        color: #7cfc00;
+}
+
+body.default #videocam_off {
+	display: none;
+	position: absolute;
+	top: 572px;
+        left: 50%;
+	margin-left: 120px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        color: #ff7161;
+}
+
+body.default #chat {
+	position: absolute;
+	top: 610px;
+	width: 100%;
+	height: 100px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #241D1D;
+}
