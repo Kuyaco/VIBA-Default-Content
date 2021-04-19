@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{display:none;opacity:0.2;}
+	.st2{display:inline;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill-opacity:0;stroke:#FFFFFF;stroke-width:20;}
+	.st5{opacity:0.2;}
+	.st6{fill-opacity:0;stroke:#000000;stroke-width:20;stroke-linecap:round;}
+	.st7{opacity:0.5;}
+	.st8{fill-opacity:0;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-dasharray:12,36;}
+	.st9{display:none;}
+	.st10{fill:#FF0000;}
+	.st11{fill-opacity:0;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-dasharray:0,36;}
+	.st12{fill-opacity:0;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-dasharray:4,52;}
+	.st13{fill-opacity:0;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-dasharray:15,65;stroke-dashoffset:-5;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="1024" height="1024"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<g transform="matrix(1,0,0,1,502,518)" class="st1">
+			<g transform="matrix(1,0,0,1,10,-6)" class="st2">
+				<path class="st3" d="M92.4-210.4C112.4-210,261.8-106,261.8,4.4S117.3,195.2,86.7,201.6c-22.4,0.5,89.7-86.7,89.7-197.2
+					S73.8-211.2,92.4-210.4z"/>
+				<path class="st4" d="M0,0"/>
+			</g>
+		</g>
+		<g transform="matrix(-1,0,0,1,522,518)" class="st5">
+			<g transform="matrix(1,0,0,1,10,-6)">
+				<path class="st3" d="M0-200c110.5,0,200,89.5,200,200S110.5,200,0,200S-200,110.5-200,0S-110.5-200,0-200z"/>
+				<path class="st4" d="M0,0"/>
+			</g>
+		</g>
+		
+			<g transform="matrix(-0.03489949554204941,0.9993908405303955,-0.9993908405303955,-0.03489949554204941,506.3526611328125,501.79669189453125)">
+			<g transform="matrix(1,0,0,1,10,-6)">
+				<path class="st3" d="M0,0"/>
+				<path class="st6" d="M0,0"/>
+			</g>
+		</g>
+		
+			<g transform="matrix(-0.27563735842704773,0.9612616896629333,-0.9612616896629333,-0.27563735842704773,508.9888000488281,500.7335510253906)">
+			<g transform="matrix(1,0,0,1,10,-6)">
+				<path class="st3" d="M0,0"/>
+				<path class="st6" d="M0-200c110.4,0,200,89.6,200,200c0,110.4-89.6,200-200,200S-200,110.4-200,0S-110.4-200,0-200z"/>
+			</g>
+		</g>
+		
+			<g transform="matrix(-0.27563735842704773,0.9612616896629333,-0.9612616896629333,-0.27563735842704773,508.9888000488281,500.7335510253906)" class="st7">
+			<g transform="matrix(1,0,0,1,10,-6)">
+				<path class="st3" d="M0,0"/>
+				<path class="st8" d="M8.2-199.8C114.8-195.5,200-107.6,200,0c0,110.4-89.6,200-200,200S-200,110.4-200,0s89.6-200,200-200"/>
+			</g>
+		</g>
+		<g transform="matrix(1,0,0,1,517.1199951171875,512)" class="st9">
+			<g transform="matrix(1,0,0,1,0,0)" class="st2">
+				<path class="st10" d="M0,0"/>
+				<path class="st6" d="M-105.2,0.2h183"/>
+			</g>
+		</g>
+		
+			<g transform="matrix(0.7071067690849304,0.7071067690849304,-0.7071067690849304,0.7071067690849304,539.76953125,457.2959289550781)" class="st9">
+			<g transform="matrix(1,0,0,1,0,0)" class="st2">
+				<path class="st10" d="M0,0"/>
+				<path class="st6" d="M-17.9,0.2h95.7"/>
+			</g>
+		</g>
+		
+			<g transform="matrix(0.7071067690849304,-0.7071067690849304,0.7071067690849304,0.7071067690849304,539.416015625,566.8505249023438)" class="st9">
+			<g transform="matrix(1,0,0,1,0,0)" class="st2">
+				<path class="st10" d="M0,0"/>
+				<path class="st6" d="M-17.9,0.2h95.7"/>
+			</g>
+		</g>
+		<g transform="matrix(1,0,0,1,512,512)">
+			<g transform="matrix(1,0,0,1,0,0)">
+				<path class="st10" d="M0,0"/>
+				<path class="st6" d="M0,0"/>
+			</g>
+		</g>
+		<g transform="matrix(1,0,0,1,512,512)" class="st7">
+			<g transform="matrix(1,0,0,1,0,0)">
+				<path class="st10" d="M0,0"/>
+				<path class="st11" d="M0,0"/>
+			</g>
+		</g>
+		<g transform="matrix(1,0,0,1,512,512)">
+			<g transform="matrix(1,0,0,1,0,0)">
+				<path class="st10" d="M0,0"/>
+				<path class="st6" d="M0,0"/>
+			</g>
+		</g>
+		<g transform="matrix(1,0,0,1,512,512)" class="st7">
+			<g transform="matrix(1,0,0,1,0,0)">
+				<path class="st10" d="M0,0"/>
+				<path class="st12" d="M0,0"/>
+			</g>
+		</g>
+		
+			<g transform="matrix(0.7071067690849304,-0.7071067690849304,0.7071067690849304,0.7071067690849304,521.7959594726562,502.3504943847656)">
+			<g transform="matrix(1,0,0,1,0,0)">
+				<path class="st10" d="M0,0"/>
+				<path class="st6" d="M-105.2,0.3h183"/>
+			</g>
+		</g>
+		<g transform="matrix(1,0,0,1,512,512)">
+			<g transform="matrix(1,0,0,1,0,0)">
+				<path class="st10" d="M0,0"/>
+				<path class="st6" d="M0,0"/>
+			</g>
+		</g>
+		<g transform="matrix(1,0,0,1,512,512)" class="st7">
+			<g transform="matrix(1,0,0,1,0,0)">
+				<path class="st10" d="M0,0"/>
+				<path class="st13" d="M0,0"/>
+			</g>
+		</g>
+		
+			<g transform="matrix(0.7071067690849304,0.7071067690849304,-0.7071067690849304,0.7071067690849304,522.1494750976562,521.7959594726562)">
+			<g transform="matrix(1,0,0,1,0,0)">
+				<path class="st10" d="M0,0"/>
+				<path class="st6" d="M-105.2,0.3h183"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
