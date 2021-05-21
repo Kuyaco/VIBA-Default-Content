@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="40px" viewBox="0 0 56 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Tile 3</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#AA2DC1">
+            <path d="M4.54846154,31.4510059 L50.0330769,31.4510059 C52.1572485,31.4510059 53.8817752,29.7584449 53.8817752,27.6853846 L53.8817752,4.4653846 C53.8817752,2.39232431 52.1572485,0.699763287 50.0330769,0.699763287 L4.54846154,0.699763287 C2.42428992,0.699763287 0.699763317,2.39232431 0.699763317,4.4653846 L0.699763317,27.6853846 C0.699763317,29.7584449 2.42428992,31.4510059 4.54846154,31.4510059 Z" id="Path" stroke-width="2.0215386"></path>
+            <polygon id="Path" stroke-width="2.16" points="34.7676923 16.8230769 23.1784615 24.6738462 23.1784615 8.97230769"></polygon>
+            <line x1="8.22461538" y1="36.6369231" x2="46.3569231" y2="36.6369231" id="Path" stroke-width="2.0215386" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>
