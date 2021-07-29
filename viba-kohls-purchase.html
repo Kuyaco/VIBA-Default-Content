@@ -32,7 +32,6 @@ body {
   font-size: 16px;
   line-height: 1.6;
   font-weight: 400;
-  margin: 0px;
 }
 
 h1 {
@@ -1425,11 +1424,71 @@ blockquote {
   object-fit: cover;
 }
 
+.product-image.no-bottom-margin {
+  margin-bottom: 0px;
+}
+
 .product-name {
   color: #e4002b;
   font-size: 1.5em;
   line-height: 1.2;
   font-weight: 700;
+}
+
+.purchase-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: -webkit-min-content;
+  grid-auto-rows: min-content;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 0.25fr 1fr 0.5fr;
+  grid-template-columns: 0.25fr 1fr 0.5fr;
+  -ms-grid-rows: -webkit-min-content;
+  -ms-grid-rows: min-content;
+  grid-template-rows: -webkit-min-content;
+  grid-template-rows: min-content;
+}
+
+.product-price {
+  color: #000;
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.add-to-cart-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #e4002b;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.add-to-cart-btn:hover {
+  color: #fff;
 }
 
 @media screen and (min-width: 1280px) {
@@ -1450,6 +1509,10 @@ blockquote {
   }
 
   .product-name {
+    font-size: 28px;
+  }
+
+  .product-price {
     font-size: 28px;
   }
 }
@@ -1572,6 +1635,19 @@ blockquote {
 
   .product-name {
     font-size: 1.3em;
+  }
+
+  .purchase-grid {
+    -ms-grid-columns: 0.35fr 1fr 0.5fr;
+    grid-template-columns: 0.35fr 1fr 0.5fr;
+  }
+
+  .product-price {
+    font-size: 1.3em;
+  }
+
+  .add-to-cart-btn {
+    padding: 15px;
   }
 }
 
@@ -1767,6 +1843,24 @@ blockquote {
   .product-name {
     font-size: 18px;
   }
+
+  .purchase-grid {
+    grid-row-gap: 0px;
+    -ms-grid-columns: 0.35fr 1fr;
+    grid-template-columns: 0.35fr 1fr;
+    -ms-grid-rows: -webkit-min-content -webkit-min-content;
+    -ms-grid-rows: min-content min-content;
+    grid-template-rows: -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content;
+  }
+
+  .product-price {
+    font-size: 18px;
+  }
+
+  .add-to-cart-btn {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1917,53 +2011,100 @@ blockquote {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
-}
 
-#w-node-_7136431f-6084-a160-a5fb-48ccca75d997-d821ed70 {
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 10;
-  grid-column-end: 12;
-}
-
-@media screen and (max-width: 991px) {
-  #w-node-_7136431f-6084-a160-a5fb-48ccca75d997-d821ed70 {
-    -ms-grid-row: span 1;
-    grid-row-start: span 1;
-    -ms-grid-row-span: 1;
-    grid-row-end: span 1;
-    -ms-grid-column: span 8;
-    grid-column-start: span 8;
-    -ms-grid-column-span: 8;
-    grid-column-end: span 8;
+  .purchase-grid {
+    grid-row-gap: 10px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
+    -ms-grid-rows: min-content min-content min-content;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content;
   }
 }
 
+#w-node-_57c98c1b-ad4a-d32d-4e34-df0d9f6868ac-ca70221d {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_86cd50de-4964-eaeb-5cae-8562f326e78d-ca70221d {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
 @media screen and (max-width: 767px) {
-  #w-node-_7136431f-6084-a160-a5fb-48ccca75d997-d821ed70 {
-    -ms-grid-column: span 6;
-    grid-column-start: span 6;
-    -ms-grid-column-span: 6;
-    grid-column-end: span 6;
+  #w-node-_2b2d20ae-3c1c-e8a1-d377-e36916020fa9-ca70221d {
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-span: 2;
+    grid-row-end: 3;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+  }
+
+  #w-node-_86cd50de-4964-eaeb-5cae-8562f326e78d-ca70221d {
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column-align: start;
+    justify-self: start;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+    -ms-grid-column: 2;
+    grid-column-start: 2;
+    -ms-grid-column-span: 1;
+    grid-column-end: 3;
   }
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_7136431f-6084-a160-a5fb-48ccca75d997-d821ed70 {
-    -ms-grid-row: span 1;
-    grid-row-start: span 1;
+  #w-node-_2b2d20ae-3c1c-e8a1-d377-e36916020fa9-ca70221d {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
     -ms-grid-row-span: 1;
-    grid-row-end: span 1;
-    -ms-grid-column: span 6;
-    grid-column-start: span 6;
-    -ms-grid-column-span: 6;
-    grid-column-end: span 6;
+    grid-row-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+  }
+
+  #w-node-_57c98c1b-ad4a-d32d-4e34-df0d9f6868ac-ca70221d {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+  }
+
+  #w-node-_86cd50de-4964-eaeb-5cae-8562f326e78d-ca70221d {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row: 3;
+    grid-row-start: 3;
+    -ms-grid-row-span: 1;
+    grid-row-end: 4;
   }
 }
+
+
+
+
 
 
 
@@ -1994,7 +2135,7 @@ blockquote {
 
 <!--===== IMPORTED HTML START =====-->
 
-<body style="background-color:#FFFFFF;color:#000000">
+<body style="background-color:#ffffff;color:#000000">
   <div class="global">
     <div class="html w-embed">
       <style>
@@ -2024,28 +2165,21 @@ a {
 </style>
     </div>
   </div>
-  <video width="100%" margin-bottom="10px" muted autoplay loop>
-        <source src="https://github.com/Kuyaco/VIBA-Default-Content/blob/main/images/echelon-default-hero-2.mp4?raw=true" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
   <section id="use-cases" data-scroll="mid" class="section"></section>
   <div class="container">
     <div class="content6-grid">
-      <div class="content6-headline-grid">
-        <div id="w-node-_7136431f-6084-a160-a5fb-48ccca75d997-d821ed70" class="content6-headline-wrap">
-          <h4>To select, click on your product of interest.</h4>
-        </div>
-      </div>
-      <div class="product-grid-2col">
-        <a href="https://viba360.mobileinsight.com/?webLinkId=WL-fb7a764a-8bb4-4de1-9d9a-90c01737b557" class="product-link-block w-inline-block"><img src="https://raw.githubusercontent.com/Kuyaco/VIBA-Default-Content/main/images/echelon-ex5s-1.jpeg" loading="lazy" alt="" class="product-image">
+      <div class="purchase-grid"><img src="https://raw.githubusercontent.com/Kuyaco/VIBA-Default-Content/main/images/echelon-ex5s-1.jpeg" loading="lazy" id="w-node-_2b2d20ae-3c1c-e8a1-d377-e36916020fa9-ca70221d" alt="" class="product-image no-bottom-margin">
+        <div id="w-node-_57c98c1b-ad4a-d32d-4e34-df0d9f6868ac-ca70221d">
           <h5 class="product-name">Echelon Connect Bike EX‑5s</h5>
-        </a>
-        <a href="https://viba360.mobileinsight.com/?webLinkId=WL-5f3f55d8-654a-4dd7-9225-f5648643b8eb%E2%80%8B" class="product-link-block w-inline-block"><img src="https://raw.githubusercontent.com/Kuyaco/VIBA-Default-Content/main/images/echelon-row-s-1.jpeg" loading="lazy" alt="" class="product-image">
-          <h5 class="product-name">Echelon® Row‑S Connected Rowing Machine</h5>
+          <div class="product-price">$1599</div>
+        </div>
+        <a id="w-node-_86cd50de-4964-eaeb-5cae-8562f326e78d-ca70221d" href="#" class="add-to-cart-btn w-inline-block">
+          <div>add to cart</div>
         </a>
       </div>
     </div>
   </div>
+  
   <style>
   .w-lightbox-backdrop, .w-lightbox-container {
     z-index: 9999;
