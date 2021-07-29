@@ -26,13 +26,12 @@
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #fff;
   font-family: Montserrat, sans-serif;
-  color: #000000;
+  color: #000;
   font-size: 16px;
   line-height: 1.6;
   font-weight: 400;
-  overflow: hidden;
 }
 
 h1 {
@@ -168,27 +167,6 @@ blockquote {
 
 .container.is--footer {
   padding-bottom: 0em;
-}
-
-.container.is--100tall {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .html {
@@ -769,9 +747,6 @@ blockquote {
 }
 
 .content6-headline-wrap {
-  /*display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;*/
   display: block;
   margin-bottom: 30px;
   -webkit-box-orient: vertical;
@@ -1418,9 +1393,42 @@ blockquote {
   margin-left: 10px;
 }
 
-.logo-kohls {
-  max-width: 300px;
-  margin: 40px;
+.product-grid-2col {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.product-link-block {
+  display: block;
+  text-decoration: none;
+}
+
+.product-link-block:hover {
+  color: #1c1c1c;
+}
+
+.product-image {
+  width: 100%;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(0, 42, 58, 0.15);
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.product-name {
+  color: #e4002b;
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 1280px) {
@@ -1438,6 +1446,10 @@ blockquote {
 
   .popup-wrap {
     display: none;
+  }
+
+  .product-name {
+    font-size: 28px;
   }
 }
 
@@ -1556,6 +1568,10 @@ blockquote {
   .button-5.mobile-contact-us {
     display: inline-block;
   }
+
+  .product-name {
+    font-size: 1.3em;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1573,6 +1589,10 @@ blockquote {
 
   h3 {
     font-size: 32px;
+  }
+
+  h4 {
+    font-size: 20px;
   }
 
   h5 {
@@ -1743,8 +1763,8 @@ blockquote {
     padding: 36px;
   }
 
-  .logo-kohls {
-    margin: 20px;
+  .product-name {
+    font-size: 18px;
   }
 }
 
@@ -1891,9 +1911,14 @@ blockquote {
   .button-5.mobile-contact-us {
     margin-left: 0px;
   }
+
+  .product-grid-2col {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 }
 
-#w-node-_8f9922e2-30b4-98e4-4e8e-7f0f800c08bc-f714b21c {
+#w-node-_7136431f-6084-a160-a5fb-48ccca75d997-d821ed70 {
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
@@ -1905,7 +1930,7 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-_8f9922e2-30b4-98e4-4e8e-7f0f800c08bc-f714b21c {
+  #w-node-_7136431f-6084-a160-a5fb-48ccca75d997-d821ed70 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -1918,7 +1943,7 @@ blockquote {
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-_8f9922e2-30b4-98e4-4e8e-7f0f800c08bc-f714b21c {
+  #w-node-_7136431f-6084-a160-a5fb-48ccca75d997-d821ed70 {
     -ms-grid-column: span 6;
     grid-column-start: span 6;
     -ms-grid-column-span: 6;
@@ -1927,7 +1952,7 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_8f9922e2-30b4-98e4-4e8e-7f0f800c08bc-f714b21c {
+  #w-node-_7136431f-6084-a160-a5fb-48ccca75d997-d821ed70 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -1938,6 +1963,8 @@ blockquote {
     grid-column-end: span 6;
   }
 }
+
+
 
 
 
@@ -1966,7 +1993,7 @@ blockquote {
 
 <!--===== IMPORTED HTML START =====-->
 
-<body  style="background-color: #FFFFFF;color:#000000">
+<body style="background-color:#FFFFFF;color:#000000">
   <div class="global">
     <div class="html w-embed">
       <style>
@@ -1996,23 +2023,29 @@ a {
 </style>
     </div>
   </div>
-  <section data-scroll="mid" class="section is--100vh">
-    <div class="container is--100tall">
-      <div class="content6-grid">
-        <div class="content6-headline-grid">
-          <div id="w-node-_8f9922e2-30b4-98e4-4e8e-7f0f800c08bc-f714b21c" class="content6-headline-wrap">
-            <h3>Thank you for shopping at Kohls</h3><img src="https://raw.githubusercontent.com/Kuyaco/VIBA-Default-Content/f409da4b6955edfc286041032581449556e7ed8c/images/logo-kohls-black.svg" loading="lazy" alt="" class="logo-kohls">
-          </div>
+  <section id="use-cases" data-scroll="mid" class="section"></section>
+  <div class="container">
+    <div class="content6-grid">
+      <div class="content6-headline-grid">
+        <div id="w-node-_7136431f-6084-a160-a5fb-48ccca75d997-d821ed70" class="content6-headline-wrap">
+          <h4>To select, click on your product of interest.</h4>
         </div>
       </div>
+      <div class="product-grid-2col">
+        <a href="https://viba360.mobileinsight.com/?webLinkId=WL-fb7a764a-8bb4-4de1-9d9a-90c01737b557" class="product-link-block w-inline-block"><img src="images/ex5s-1.jpeg" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 45vw, (max-width: 991px) 43vw, 44vw" srcset="images/ex5s-1.jpeg 500w, images/ex5s-1.jpeg 800w, images/ex5s-1.jpeg 1080w, images/ex5s-1.jpeg 1200w" alt="" class="product-image">
+          <h5 class="product-name">Echelon Connect Bike EX‑5s</h5>
+        </a>
+        <a href="https://viba360.mobileinsight.com/?webLinkId=WL-5f3f55d8-654a-4dd7-9225-f5648643b8eb%E2%80%8B" class="product-link-block w-inline-block"><img src="images/row-s-1.jpeg" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 45vw, (max-width: 991px) 43vw, 44vw" srcset="images/row-s-1.jpeg 500w, images/row-s-1.jpeg 800w, images/row-s-1.jpeg 1080w, images/row-s-1.jpeg 1200w" alt="" class="product-image">
+          <h5 class="product-name">Echelon® Row‑S Connected Rowing Machine</h5>
+        </a>
+      </div>
     </div>
-  </section>
-  
+  </div>
   <style>
   .w-lightbox-backdrop, .w-lightbox-container {
     z-index: 9999;
   }
-  </style>
+</style>
   
 </body>
 
